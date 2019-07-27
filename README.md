@@ -16,9 +16,7 @@ evec-mini-v0.1 is built with Hedera Java SDK and Python. Code has been tested bo
 
 ## CONTENTS
 1. Environment Set-Up
-2. API Documentation
-3. Demo Explanation
-4. Other Notes
+2. Other Notes
 
 ## 1. Environment Set-Up
 
@@ -70,37 +68,13 @@ $ pip install -U python-dotenv
 * If the first demo is successful, you can try our second demo to run `client2.py` followed by `client1.py`. More detailed info can be found in the README.md file in [Demo folder](/Demo).
 * A UI-based example and instructions can be found in the [example folder](/examples).
 
-## 2. Hedera API Documentation
-2 REST APIs have been built :-
 
-A description of APIs is written in [api_documentation.txt](api_documentation.txt)
-
-To see how to call the APIs refer [HederaCalls.py](/Demo/HederaCalls.py)
-
-## 3. Demo Explanation
-Demo code is written in Python and can be found in the [Demo folder](/Demo)
-Click [here](/Demo/README.md) for more information on what the demo does
-
-## 4. Notes and Guidelines
-* Main functionality lies in [here](/src/main/java/com/freelance/spidertwin1/hashgraph)
+## 2. Notes and Guidelines
+* Main functionality lies in [here](/src/main/java/com/freelance/yudi/hashgraph)
 * To run the hedera file etc. ensure you have sufficient funds. 
 * This functionality is up to date for [SDK 0.4.6 OF HEDERA-JAVA-SDK](https://github.com/hashgraph/hedera-sdk-java)
-* To know more about how the demo works refer next section.
 
----------------------------------------------------------------
-# evec mini app prototype (To be created by 31 July)
-a demo to show how evec use the distributed power to secure IoT devices - a simple device authenciation scenario to start
 
-A Web UI and the python functions to simplify the life for developers to build IoT App, testing and deploy. 
-
-## Back-end python package
-python packages can be found in the folder python_lib (to be created, currently all functions are in example folder)
-
-## example 
-python example code can be found in the folder example
-
-## Web UI and flask back-end setup
-To be built
 
 
 

@@ -4,7 +4,7 @@
 # EVEC mini-demo project - IoT with Hedera
 
 **Project Description** - 
-To test the EVEC's IoT API (mini-release version) for Hedera.  EVEC is building a distributed IoT toolkit to enpower IoT developers to manage IoT devices (securely) with Distributed Ledger Technology.
+To test the EVEC's IoT API (mini-release version) on Hedera testnet & mainnet.  EVEC is building a distributed IoT toolkit to enpower IoT developers to manage IoT devices (securely) with Distributed Ledger Technology.
 
 ## CONTENTS
 1. Environment Set-Up

@@ -9,7 +9,7 @@ In this demo, a new accont is created by the file SenseHatDemo.py, with inital b
 
 ### Edge device demo
 
-![EVEC Edge Architecture v0.0.1](/pic/evec edge arch v0.0.1.png?raw=true "evec edge arch v0.0.1")
+![EVEC Edge Architecture v0.0.1](../pic/evec edge arch v0.0.1.png?raw=true "evec edge arch v0.0.1")
 client1 - c1
 client2 - c2
 

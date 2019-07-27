@@ -1,10 +1,10 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-# Yudi Xu evec Project - IoT on Hedera
+# EVEC mini-demo project - IoT with Hedera
 
-**Task** - 
-To use Hedera Hashgraph's java sdk and create REST APIs that can be utilized by IoT devices to create account and authenticate other devices
+**Project Description** - 
+To test the EVEC's IoT API (mini-release version) for Hedera.  EVEC is building a distributed IoT toolkit to enpower IoT developers to manage IoT devices (securely) with Distributed Ledger Technology.
 
 ## CONTENTS
 1. Environment Set-Up

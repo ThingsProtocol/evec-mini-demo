@@ -28,6 +28,7 @@ Before starting ensure you have the following:
 * **Latest** Hedera TestNet Account (created during or after the second  community testing phase)
 * [JDK](https://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html) : 11.x
 * [Maven](https://maven.apache.org/) : 3.6.0
+* If you are not familiar with JDK and Maven, refer this tutorial to install them [run hashgraph java sdk demo in 5 min (non-developer proof)](https://www.youtube.com/watch?v=7nJ3OW0AP8I)
 
 **On your IoT device** - 
 

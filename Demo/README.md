@@ -10,19 +10,18 @@ In this demo, a new accont is created by the file SenseHatDemo.py, with inital b
 ### Edge device demo
 
 ![EVEC Edge Architecture v0.0.1](../pic/evec_edge_arch.png?raw=true "evec edge arch v0.0.1")
-client1 - c1
-client2 - c2
+client1 - A
+client2 - B
 
-c1 is the sending client. c2 is the receiving client
+A is the sending client. B is the receiving client
 
-c1 creates an account on hedera using the rest api and stores its mac address on hedera file.
+A creates an account on hedera using the rest api and stores its mac address on hedera file.
 
-c1 first sends a message in the format - "c1_mac_address;c1_hedera_account_id"
+A first sends a message in the format - "A_mac_address;A_hedera_account_id"
 
-c2 hears this. checks if message format is valid. Then checks if the mac address in the message has previously been authenticated by it. (If it has - this is where you may add your code). If it hasn't, then c2 calls REST API to talk with Hedera to match the mac address it received against the account number in the message. If the API says the mac address sent matches with the one stored on Hedera File, then c2 broadcasts that c1 is authenticated. 
+B hears this. checks if message format is valid. Then checks if the mac address in the message has previously been authenticated by it. (If it has - this is where you may add your code). If it hasn't, then B calls REST API to talk with Hedera to match the mac address it received against the account number in the message. If the API says the mac address sent matches with the one stored on Hedera File, then B broadcasts that A is authenticated. 
 
-c1, on hearing this, can now send the actual messages it wanted to send to c2 (this is where you add your code)
-
+A, on hearing this, can now send the actual messages it wanted to send to B (this is where you can add your code)
 
 
 ## Quick Recap on how to run:

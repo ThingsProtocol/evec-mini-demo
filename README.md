@@ -30,7 +30,7 @@ Before starting ensure you have the following:
 * [Maven](https://maven.apache.org/) : 3.6.0
 * If you are not familiar with JDK and Maven, refer this tutorial to install them [run hashgraph java sdk demo in 5 min (non-developer proof)](https://www.youtube.com/watch?v=7nJ3OW0AP8I)
 
-**On your IoT device** - 
+**On your Raspi/IoT device** - 
 
 Install `Raspbian` OS
 Confirm you have `Python3` and `pip` installed on the raspberry pi (python2 will also work)

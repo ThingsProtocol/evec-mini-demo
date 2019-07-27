@@ -31,15 +31,15 @@ Before starting ensure you have the following:
 * [JDK](https://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html) : 11.x
 * [Maven](https://maven.apache.org/) : 3.6.0
 
-**On your IoT device - **
+**On your IoT device** - 
 
 Install `Raspbian` OS
-Confirm you have `Python3` and `pip` installed on the raspberry pi
+Confirm you have `Python3` and `pip` installed on the raspberry pi (python2 will also work)
 
 ### 1b. Installation
 
 * `git clone` this repo on your laptop.
-* Also save the (Demo folder)[/Demo] and `.env` on your pi/sense-hat device.
+* Also save the (Demo folder)[/Demo] and `.env` on your Raspi device.
 
 #### On your Computer Command Prompt: 
 `cd` into the parent folder (i.e. wherever you downloaded this repository)
@@ -60,7 +60,7 @@ $ pip install -U python-dotenv
 ``` $ mvn spring-boot:run```
 * from the command line output, get the file number
 * In the .env file, write this number next to FILE_NUM (instead of 0)
-* Add the IP Address of your laptop to the .ENV file. (This is so that the rest apis exposed by the laptop can be called by the raspberry pi)
+* Add the IP Address of your laptop to the .env file. (This is so that the rest apis exposed by the laptop can be called by the raspberry pi), make sure this .env file stored on each of your Raspi/IoT device.
 	
 ### 1d. Running the Code
 * After following the above steps, once again run the code-

@@ -8,4 +8,4 @@ In order to run flask, make sure you `pip install flask`, `pip install Flask-API
 
 * In your terminal, `cd` to this `webApp` folder.
 * Run `python flask-api.py`, If see error relates to missing module, `pip install [module-name]`
-* Open Browser in `http://0.0.0.0:5000`, then enter your account info to transfer fund (make sure your account balance is sufficent). 
+* Open Browser in `http://0.0.0.0:5000`, then enter your account info to transfer fund (make sure your account balance is sufficient). 

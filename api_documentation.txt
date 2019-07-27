@@ -1,0 +1,52 @@
+MESSAGE FORMAT DOCUMENTATION
+All messages sent must be of the following format
+{MAC ADDRESS OF SENDER IN STRING}+";"+{ACTUAL MESSAGE or HEDERA ACCOUNT ID}
+
+Client c1 first sends a message to c2 (for authentication) like so:
+"00:0a:95:9d:68:16;0.0.14114" i.e. "<mac address>;<hedera account id>
+
+receiving client c2 hears the message and calls the "doAuthentication" API on Hedera Network to check if the above mentioned mac address is registered on hedera or not.
+If it was registered, doAuthentication() returns true and c2 sends an appropriate message to c1.
+
+After this c1 knows it is authenticated. Now it can simply send a message preceded by its mac address and a semicolon. The receiving client checks to see if it has already authenticated this mac address. If so it proceeds to work on the message.
+
+
+
+
+
+
+HEDERA REST API DOCUMENTATION
+
+This document explains how to call each REST API implemented.
+
+LIST OF APIS IMPLEMENTED:
+1. Create New Account
+2. Do Authentication
+
+************************API DESCRIPTION***************************
+
+CREATE ACCOUNT
+
+Description: Creates a Hedera account, hashes the "macAddress" and stores it on hedera file with the account number just generated.
+POST localhost:8080/account
+BODY: json - 
+	{
+		"startBalance" : 0,
+		"macAddress" : "...."
+	}
+RETURNS:
+	String HashMap/Dictionary/Mapping : [accountNumber,publicKey, privateKey] or Error (in hashmap)
+
+
+
+DO AUTHENTICATION
+
+Description: For the given "accountID", it retrieves the hashed mac adress stored on the hedera file and matches it with the hash of "MAC_Address_toBeChecked"
+POST localhost:8080/auth
+BODY: json - 
+	{
+		"accountID" : "0.0.13610",
+		"MAC_Address_toBeChecked" : "..."
+	}
+RETURNS:
+	Boolean (T/F)

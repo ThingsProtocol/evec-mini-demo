@@ -1,0 +1,13 @@
+# Network Node ID and Address
+NODE_ID=0.0.3
+NODE_ADDRESS=0.testnet.hedera.com:50211
+
+# Operator ID (Account Number) and Private Key
+OPERATOR_ID=0.0.1117
+OPERATOR_KEY="302e020100300506032b657004220420ec9c82785e89aa0d7c41d965a7a70177d01a576236570ed4928da2d35c4498d7"
+
+# Hedera File Number
+FILE_NUM=20001
+
+#IP ADDRESS
+IP_ADDRESS="http://localhost"

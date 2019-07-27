@@ -1,0 +1,70 @@
+API DOCUMENTATION
+
+This document explains how to call each REST API implemented.
+
+LIST OF APIS IMPLEMENTED:
+1. Create New Account
+2. Get Balance of an Account
+3. Transfer Hbars from one Account to another
+4. Add/Update data associated to an Account on the Hedera File
+5. Read latest data stored for my Account on the Hedera File
+
+************************API DESCRIPTION***************************
+
+CREATE ACCOUNT
+
+POST localhost:8080/account
+BODY: json - 
+	{
+		"startBalance" : 0
+	}
+RETURNS:
+	String array: [accountNumber,publicKey, privateKey]
+
+
+ACCOUNT BALANCE
+
+POST localhost:8080/balance
+BODY: json - 
+	{
+		"accountNum": "0.0.1235",
+		"pvtKey": "302e020100300506032b6570042204204e89e50a9abd218fb5c96c4a888394afda14f3f96968c41e5ae28a9e02b93d10"
+	}
+RETURNS: balance (in Long)
+
+
+TRANSFER HBARS
+
+POST localhost:8080/transfer
+BODY: json - 
+	{
+		"fromAccountNum": "0.0.1235",
+		"fromPvtKey": "302e020100300506032b6570042204204e89e50a9abd218fb5c96c4a888394afda14f3f96968c41e5ae28a9e02b93d10",
+		"toAccountNum":"0.0.1236",
+		"amount":"1000"
+	}
+
+
+ADD/UPDATE DATA
+
+POST localhost:8080/data
+BODY: json - 
+	{
+		"accountNum": "0.0.1236",
+		"pvtKey": "302e020100300506032b657004220420597234055b15ac86f226d5fbef4c83e041578e0c33fb74798c624ee5aeca93c3",
+		"data":"for demo trial",
+		"toAccountNum": "1237"
+	}
+RETURNS: boolean - succesful or not
+
+NOTE - leave toAccountNum blank if only want to update the account's own id.
+
+
+READ DATA
+
+GET localhost:8080/data/{id}
+BODY: no body required
+eg: localhost:8080/data/1236
+RETURNS: data in string or "-1"
+
+

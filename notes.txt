@@ -1,0 +1,12 @@
+MQTT
+publush - sending a message
+topicName = "hedera"
+have client subscribe to this topic
+
+on sending message, payload will have message+public key/accountID+hashed-MAC-address.
+receiving client calls hedera API that reads hedera file of that accountID and checks if it exists.
+
+https://mntolia.com/mqtt-python-with-paho-mqtt-client/#1_Establishing_Connection_To_A_MQTT_Broker
+https://atadiat.com/en/e-mqtt-101-tutorial-introduction-and-eclipse-mosquitto/
+
+

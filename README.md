@@ -64,11 +64,11 @@ $ pip install -U python-dotenv
 	
 ### 1d. Running the Code
 * After following the above steps, once again run the code-
-``` $ mvn spring boot:run```
-* Wait for command line output to show "You may call the Rest APIs now!"
+``` $ mvn spring boot:run```.
+* Wait for command line output to show "You may call the Rest APIs now!".
 * Now you can run `SenseHatDemo.py` (this requires a SenseHAT and Raspi), you will see the Led light turns on and off. 
-* If the first demo is successful, you can try our second demo to run `client2.py` followed by `client1.py`. More detailed info can be found in the README.md file in [Demo folder](/Demo)
-* A UI-based example and instruction can be found in the [example folder](/examples), 
+* If the first demo is successful, you can try our second demo to run `client2.py` followed by `client1.py`. More detailed info can be found in the README.md file in [Demo folder](/Demo).
+* A UI-based example and instructions can be found in the [example folder](/examples).
 
 ## 2. Hedera API Documentation
 2 REST APIs have been built :-

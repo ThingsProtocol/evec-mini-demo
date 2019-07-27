@@ -1,10 +1,18 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-# EVEC mini-demo project - IoT with Hedera
+# EVEC mini-demo project - IoT with Hedera (evec-mini-v0.1)
 
 **Project Description** - 
-To test the EVEC's IoT API (mini-release version) on Hedera testnet & mainnet.  EVEC is building a distributed IoT toolkit to enpower IoT developers to manage IoT devices (securely) with Distributed Ledger Technology.
+To test the EVEC's IoT API (mini-release version) on Hedera testnet & mainnet. EVEC is building a distributed IoT toolkit to enpower IoT developers to manage IoT devices (securely) with Distributed Ledger Technology.
+
+This demo project is part of the big **IoT Platform Evolution Program**. By leveraging the new advanced DLT architecture, we will ecolutionize the IoT ecosystem in **security**, **interoperbility**, **application development** 
+
+More info will be realesed after summer 2019. Stay Tuned! 
+
+
+evec-mini-v0.1 is built with Hedera Java SDK and Python. Code has been tested both on VM and raspberry pi (2&3). 
+
 
 ## CONTENTS
 1. Environment Set-Up

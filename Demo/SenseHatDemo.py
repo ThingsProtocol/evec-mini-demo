@@ -1,6 +1,6 @@
 #THIS CODE IN EACH DEVICE
 
-#from sense_hat import SenseHat
+from sense_hat import SenseHat
 import time
 import requests
 import re

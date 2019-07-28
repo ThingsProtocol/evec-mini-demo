@@ -29,6 +29,8 @@ A, on hearing this, can now send the actual messages it wanted to send to B (thi
 ### Cloud integration
 If you have Microsoft Azure Cloud account, you can try out the register_device.py function to register deivce both in Hedera and Azure IoT Hub. More info of how to setup IoT Hub can be found [here](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal)
 
+![Azure cloud integration](../pic/azure.png)
+
 ## Quick Recap on how to run:
 
 Just as a recap to run the demo from start:

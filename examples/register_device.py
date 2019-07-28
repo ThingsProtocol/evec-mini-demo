@@ -33,10 +33,10 @@ print("Register Device Process Started.....")
 
 ####### code to add device in Azure Cloud via nodejs function #######
 
-result = execute_js('device_management.js')
+result = execute_js('add_device.js')
 
 if result:
-    print ("JavaScript is successfully executed")
+    print ("JavaScript is successfully executed and device is created in Azure IoT Hub!")
 else:
     print ("JavaScript is failed")
 

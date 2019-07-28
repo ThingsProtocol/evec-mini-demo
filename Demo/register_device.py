@@ -12,6 +12,7 @@ from GetMac import getMAC
 from HederaCalls import createAccount
 import json
 import paho.mqtt.client as mqtt
+from Naked.toolshed.shell import execute_js, muterun_js
 
 # get user input for device tags, return dict format of device attribute
 def device_info_input():
@@ -31,6 +32,20 @@ def device_info_input():
 device_info_input()
 
 print("Register Device Process Started.....")
+
+####### code to add device in Azure Cloud via nodejs function #######
+
+result = execute_js('device_management.js')
+
+if result:
+    print ("JavaScript is successfully executed and device is created in Azure IoT Hub!")
+else:
+    print ("JavaScript is failed")
+
+############################    code end    ########################
+
+
+
 # get mac addr and call createAccount function
 my_MAC_address = "test_mac_address"#getMAC()
 my_acc_details = createAccount(my_MAC_address)

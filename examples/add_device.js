@@ -16,7 +16,7 @@ var registry = iothub.Registry.fromConnectionString(connectionString);
 // Specify the new devices.
 var deviceAddArray = [
   {
-    deviceId: 'Device1', // can we get this device name info from WebApp???
+    deviceId: 'device_sample_001', // can we get this device name info from WebApp???
     status: 'disabled',
     authentication: {
       symmetricKey: {

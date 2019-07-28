@@ -13,7 +13,7 @@ var registry = iothub.Registry.fromConnectionString(connectionString);
 // Specify the new devices.
 var deviceAddArray = [
   {
-    deviceId: 'Device1',
+    deviceId: 'device_sample_001',
     status: 'disabled',
     authentication: {
       symmetricKey: {

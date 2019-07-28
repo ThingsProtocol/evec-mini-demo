@@ -3,7 +3,7 @@
 ## Explanation
 
 ### SenseHAT demo 
-In this demo, a new accont is created by the file SenseHatDemo.py, with inital balance of 100,000,000 tiny bar. Everya few second, it code will transfer some Hbars to the IoT device, and check if the balance has increased every 2 second. If balance has increased, blinks the Led, otherwise off. 
+In this demo, a new accont is created by the file SenseHatDemo.py, with inital balance of 100,000,000 tiny bar. Every few seconds, the code will transfer some Hbars to the IoT device, and check if the balance has increased every 2 second. If balance has increased, blinks the Led, otherwise off. 
 ![senseHat demo](../pic/senseHat_pic.jpeg "SenseHatDemo Pic")
 ![senseHat demo](../pic/sensehatDemo.png "SenseHatDemo Pic")
 

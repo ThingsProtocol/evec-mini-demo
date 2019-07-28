@@ -9,7 +9,7 @@ from os.path import join, dirname
 from dotenv import load_dotenv
 from HederaCalls import createAccount
 
-#sense = SenseHat()
+sense = SenseHat()
 
 # Accessing variables from .env.
 dotenv_path = join(dirname(__file__), '../.env')
@@ -130,7 +130,7 @@ while True:
 	if count == 3:
 		#at 6th second transfer HBars from operator account to account of IoT device.
 		transferHbars(operator_accNum,operator_pvtKey,myAccountDetails['accountNum'],100000000)
-		currBalance = chkBalance(myAccountDetails['accountNum'],myAccountDetails['pvtKey'])
+	currBalance = chkBalance(myAccountDetails['accountNum'],myAccountDetails['pvtKey'])
 	if currBalance > prevBalance:
 		sense.clear(green) #turn sense green!
 		#print("Led is Green!")

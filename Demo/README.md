@@ -11,8 +11,8 @@ In this demo, a new accont is created by the file SenseHatDemo.py, with inital b
 ### Edge device demo
 
 ![EVEC Edge Architecture v0.0.1](../pic/evec_edge_arch.png?raw=true "evec edge arch v0.0.1")
-client1 - A
-client2 - B
+client1 - A (you can think it as a phone or an IoT button)
+client2 - B (a smart locker at your home)
 
 A is the sending client. B is the receiving client
 

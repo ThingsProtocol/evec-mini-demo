@@ -132,9 +132,9 @@ while True:
 		transferHbars(operator_accNum,operator_pvtKey,myAccountDetails['accountNum'],100000000)
 		currBalance = chkBalance(myAccountDetails['accountNum'],myAccountDetails['pvtKey'])
 	if currBalance > prevBalance:
-		#sense.clear(green) #turn sense green!
-		print("Led is Green!")
+		sense.clear(green) #turn sense green!
+		#print("Led is Green!")
 	else:
-		#sense.clear()	#no colour.
-		print("Led is off!")
+		sense.clear()	#no colour.
+		#print("Led is off!")
 	msleep(2)

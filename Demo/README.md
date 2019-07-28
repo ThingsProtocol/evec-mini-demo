@@ -18,7 +18,7 @@ A is the sending client. B is the receiving client
 
 A creates an account on hedera using the rest api and stores its mac address on hedera file.
 
-A first sends a message in the format - "A_mac_address;A_hedera_account_id"
+A first sends a message (via MQTT) in the format - "A_mac_address;A_hedera_account_id"
 
 B hears this. checks if message format is valid. Then checks if the mac address in the message has previously been authenticated by it. (If it has - this is where you may add your code). If it hasn't, then B calls REST API to talk with Hedera to match the mac address it received against the account number in the message. If the API says the mac address sent matches with the one stored on Hedera File, then B broadcasts that A is authenticated. 
 

@@ -9,4 +9,4 @@ In order to run flask, make sure you `pip install flask`, `pip install Flask-API
 * In your terminal, `cd` to this `webApp` folder.
 * Run `python flask-api.py`, If see error relates to missing module, `pip install [module-name]`
 * Open Browser in `http://0.0.0.0:5000`, then enter your account info to transfer fund (make sure your account balance is sufficient). 
-* In order to run the react front end, please follow the instruction in [front-end/evec](/front-end/evec). You need to have `npm` installed the npm packages. 
+* In order to run the react front end, please follow the instruction in [front-end/evec](/front-end). You need to have `npm` installed the npm packages. 

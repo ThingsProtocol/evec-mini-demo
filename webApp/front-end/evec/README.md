@@ -20,3 +20,9 @@ You will also see any errors in the console.
 Currently, we haven't implemented any display or good-looking UI, so you have to turn on the browser console to check the return data. 
 ![console output](../../../pic/front_output.jpeg)
 
+To turn on the console, in Google Chrome, you can right click, and select 'Inspect'
+
+
+THe demo still needs a lot of front end work, so please bear with us if you are a UX person ;-) Contact us, we may hire you to work together for a better UI for our official product ;))))
+
+

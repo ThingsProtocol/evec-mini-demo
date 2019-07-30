@@ -18,5 +18,5 @@ The page will reload if you make edits.<br>
 You will also see any errors in the console.
 
 Currently, we haven't implemented any display or good-looking UI, so you have to turn on the browser console to check the return data. 
-![console output](../pic/front_output.jpeg)
+![console output](../../../pic/front_output.jpeg)
 

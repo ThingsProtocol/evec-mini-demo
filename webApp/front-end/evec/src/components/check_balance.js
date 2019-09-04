@@ -30,7 +30,7 @@ const CheckBalance = () => (
                 type="text"
                 onChange={props.handleChange}
                 onBlur={props.handleBlur}
-                value={props.values.fromAccNum}
+                value={props.values.device_name}
                 name="device_name"
               />
             </label>
@@ -40,7 +40,7 @@ const CheckBalance = () => (
                 type="text"
                 onChange={props.handleChange}
                 onBlur={props.handleBlur}
-                value={props.values.fromPvtKey}
+                value={props.values.toAccNum}
                 name="accountNum"
               />
             </label>
@@ -50,7 +50,7 @@ const CheckBalance = () => (
                 type="text"
                 onChange={props.handleChange}
                 onBlur={props.handleBlur}
-                value={props.values.toAccNum}
+                value={props.values.fromPvtKey}
                 name="pvtKey"
               />
             </label>

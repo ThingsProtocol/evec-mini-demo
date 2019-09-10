@@ -53,6 +53,7 @@ public class FileService {
         )
             // Use the same key as the operator to "own" this file
             .addKey(operatorKey.getPublicKey())
+			.setTransactionFee(50_000_000L)
             .setContents(fileContents);
 
         var receipt = tx.executeForReceipt();
@@ -228,7 +229,10 @@ public class FileService {
         var tx = new AccountCreateTransaction(client)
             // The only _required_ property here is `key`
             .setKey(newKey.getPublicKey())
-            .setInitialBalance(startBalance);
+            .setInitialBalance(startBalance)
+			.setTransactionFee(100_000_000_000L);// I added this as suggested in discord to solve the 
+												//Insufficient_TX_FEE, but it 
+												//triggers the Insufficient_PAYER_BALANCE error
         
         try {
 			

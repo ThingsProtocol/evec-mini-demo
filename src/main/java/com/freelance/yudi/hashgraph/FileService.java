@@ -141,6 +141,7 @@ public class FileService {
 		updatedData = "id:"+accountNum+"DATA:"+data+";"; //; is the delimeter.
 
 		var tx = new FileAppendTransaction(client).setFileId(fileId)
+					.setTransactionFee(1_000_000_000L) // set Transaction fee otherwise receive INSUFFICIENT_TX_FEE error
 					.setContents(updatedData.getBytes());
 		try {
 			tx.executeForReceipt();
@@ -230,9 +231,7 @@ public class FileService {
             // The only _required_ property here is `key`
             .setKey(newKey.getPublicKey())
             .setInitialBalance(startBalance)
-			.setTransactionFee(100_000_000_000L);// I added this as suggested in discord to solve the 
-												//Insufficient_TX_FEE, but it 
-												//triggers the Insufficient_PAYER_BALANCE error
+			.setTransactionFee(10_000_000L);// Add this to set the transaction fee otherwise receive INSUFFICIENT_TX_FEE error
         
         try {
 			

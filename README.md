@@ -4,14 +4,17 @@
 [<img align="right" width="200" src="pic/evec_logo.png">](http://evec.io)
 
 
-⚠️**EVEC as a predecessor company of Things Protocol, has been deprecated in Feb, 2020. WHen you visit evec.io, you will be directed to thingsprotocol.com for the latest information.** ⚠
+⚠️⚠️⚠️**EVEC as a predecessor company of Things Protocol, has been deprecated in Feb, 2020. WHen you visit evec.io, you will be redirected to thingsprotocol.com for the latest information.** 
+
+📢📢📢We are currently actively testing our newly redesigned solution with our customers, once that is done. You can expect a new stable version to be open sourced, and more! 🔥
+
+For further quesitons, please visit thingsprotocol.com or send a note to 📧dev@thingsprotocol.com
 
 
 
 
 
-
-# EVEC mini-demo project - IoT with Hedera (evec-mini-v0.1)
+## EVEC mini-demo project - IoT with Hedera (evec-mini-v0.1)
 
 **Project Description** -
 Test project of the EVEC IoT API (mini-release version) on Hedera testnet & mainnet. EVEC is building a distributed IoT toolkit to enpower IoT developers to manage IoT devices (securely) with Distributed Ledger Technology.

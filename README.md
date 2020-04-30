@@ -4,7 +4,7 @@
 [<img align="right" width="200" src="pic/evec_logo.png">](http://evec.io)
 
 
-⚠️⚠️⚠️**EVEC as a predecessor company of Things Protocol, has been deprecated in Feb, 2020. WHen you visit evec.io, you will be redirected to thingsprotocol.com for the latest information.** 
+⚠️⚠️⚠️**EVEC as a predecessor project/company of Things Protocol, has been deprecated in Feb, 2020. WHen you visit evec.io, you will be redirected to thingsprotocol.com for the latest information.** 
 
 📢📢📢We are currently actively testing our newly redesigned solution with our customers, once that is done. You can expect a new stable version to be open sourced, and more! 🔥
 

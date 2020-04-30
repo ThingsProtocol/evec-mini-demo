@@ -1,7 +1,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-[<img align="right" width="200" src="pic/evec_logo.png">](http://evec.io)
+[<img align="right" width="200" src="pic/ThingsProDev.png">](http://evec.io)
 
 
 ⚠️⚠️⚠️**EVEC as a predecessor project/company of Things Protocol, has been deprecated in Feb, 2020. WHen you visit evec.io, you will be redirected to thingsprotocol.com for the latest information.** 
